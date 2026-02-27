@@ -1,0 +1,16 @@
+{
+  "name": "phase11-full-verify",
+  "version": "1.0.0",
+  "description": "Todo List app — React frontend + Express backend",
+  "private": true,
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "start:server": "cd server && npm start",
+    "start:client": "cd client && npm run preview"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
